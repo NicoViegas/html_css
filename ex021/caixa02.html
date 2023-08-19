@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(128, 128, 128, 0.388);
+            margin: 0px;
+        }
+
+        header{
+            width: 600px;
+            background-color: rgba(127, 255, 212, 0.508);
+            padding: 10px;
+            margin: auto;
+        }
+        main{
+            width: 600px;
+            background-color: rgba(95, 95, 229, 0.523);
+            margin: auto;
+            padding: 10px;
+            border-radius: 0px 15px ;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.401);;
+        }
+        footer{
+            background-color: rgba(172, 255, 47, 0.505);
+            margin: 0px;
+            padding: 1px;
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.358);
+            font-family: 'Times New Roman', Times, serif;
+            box-shadow: inset 0px 1px 14px 3px black;
+        }
+        h2{
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        article{
+            background-color: lightblue;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.349)
+        }
+        article > aside{
+            background-color: rgb(214, 170, 104);
+        }
+        nav{
+            background-color: lightskyblue;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.444);
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+        nav > a:active{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+     </header>
+     <main>
+        <section id="assuntos">
+            <p>Putaria</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Sexo: </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, totam. Alias nisi nam perspiciatis nemo. Qui dolor, voluptatibus omnis impedit, mollitia laudantium sunt ad ut fugit cum rerum nostrum totam?</p>
+                <aside>
+                    <p>Artigo escrito por pindamonhangaba</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Sexo2: </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, totam. Alias nisi nam perspiciatis nemo. Qui dolor, voluptatibus omnis impedit, mollitia laudantium sunt ad ut fugit cum rerum nostrum totam?</p>
+                <aside>
+                    <p>Artigo escrito por pindamonhangaba</p>
+                </aside>
+            </article>
+        </section>
+     </main>
+     <footer>
+        <p>Desenvolvido por Nicolle</p>
+     </footer>
+</body>
+</html>
