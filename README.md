@@ -1,2 +1,1 @@
-# html_css
- repositório do curso de html/css do curso em vídeo
+    Repositório do curso de html/css do curso em vídeo. Ou seja, isso aqui é só aprendizado
